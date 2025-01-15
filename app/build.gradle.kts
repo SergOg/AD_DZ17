@@ -78,10 +78,14 @@ dependencies {
 //    implementation("org.jetbrains.kotlin:kotlin-coroutines-core:1.3.9")
 //    implementation("org.jetbrains.kotlin:kotlin-coroutines-android:1.5.0")
 
-//    implementation("com.google.code.gson:gson:2.10.1")
-//
-//    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
-////    implementation (libs.converter.gson)
+    implementation("com.google.code.gson:gson:2.10.1")
+
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+//    implementation (libs.converter.gson)
+
     implementation ("com.github.bumptech.glide:glide:4.13.0")
     annotationProcessor("com.github.bumptech.glide:compiler:4.13.0")
+
+    implementation ("com.squareup.okhttp3:okhttp:4.9.2")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.9.2")
 }
