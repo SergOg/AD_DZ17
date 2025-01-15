@@ -1,0 +1,20 @@
+---------------------------- PROCESS ENDED (12149) for package ru.gb.dz17 ----------------------------
+---------------------------- PROCESS STARTED (12332) for package ru.gb.dz17 ----------------------------
+2025-01-14 14:00:03.932 12332-12332 System                  ru.gb.dz17                           W  ClassLoader referenced unknown path: /data/app/ru.gb.dz17-1/lib/x86
+2025-01-14 14:00:04.108 12332-12332 AppCompatDelegate       ru.gb.dz17                           D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2025-01-14 14:00:04.209 12332-12332 art                     ru.gb.dz17                           W  Before Android 4.1, method android.graphics.PorterDuffColorFilter androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+2025-01-14 14:00:04.360 12332-12364 NetworkSecurityConfig   ru.gb.dz17                           D  No Network Security Config specified, using platform default
+2025-01-14 14:00:04.368 12332-12364 ViewModel               ru.gb.dz17                           D  Unable to create converter for class ru.gb.dz17.data.MarsPhotos
+                                                                                                        for method PhotoApi.getPhotoFromApi
+2025-01-14 14:00:04.374 12332-12332 <no-tag>                ru.gb.dz17                           D  HostConnection::get() New Host Connection established 0x9f5e6ec0, tid 12332
+2025-01-14 14:00:04.403 12332-12367 <no-tag>                ru.gb.dz17                           D  HostConnection::get() New Host Connection established 0xa0811540, tid 12367
+2025-01-14 14:00:04.426 12332-12367 OpenGLRenderer          ru.gb.dz17                           I  Initialized EGL, version 1.4
+2025-01-14 14:00:04.426 12332-12367 OpenGLRenderer          ru.gb.dz17                           D  Swap behavior 1
+2025-01-14 14:00:04.427 12332-12367 OpenGLRenderer          ru.gb.dz17                           W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2025-01-14 14:00:04.427 12332-12367 OpenGLRenderer          ru.gb.dz17                           D  Swap behavior 0
+2025-01-14 14:00:04.467 12332-12367 EGL_emulation           ru.gb.dz17                           D  eglCreateContext: 0x9f5d7e40: maj 2 min 0 rcv 2
+2025-01-14 14:00:04.474 12332-12367 EGL_emulation           ru.gb.dz17                           D  eglMakeCurrent: 0x9f5d7e40: ver 2 0 (tinfo 0x9f5758d0)
+2025-01-14 14:00:04.506 12332-12367 EGL_emulation           ru.gb.dz17                           D  eglMakeCurrent: 0x9f5d7e40: ver 2 0 (tinfo 0x9f5758d0)
+2025-01-14 14:00:09.781 12332-12371 ProfileInstaller        ru.gb.dz17                           D  Installing profile for ru.gb.dz17
+2025-01-14 14:00:18.856 12332-12339 art                     ru.gb.dz17                           I  Debugger is no longer active
+2025-01-14 14:00:18.856 12332-12339 art                     ru.gb.dz17                           I  Starting a blocking GC Instrumentation

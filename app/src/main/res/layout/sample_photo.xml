@@ -8,7 +8,7 @@
     android:background="@color/black">
 
     <ImageView
-        android:id="@+id/Pic"
+        android:id="@+id/pic"
         android:layout_width="0dp"
         android:layout_height="150dp"
         android:src="@color/purple_200"
@@ -25,8 +25,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@id/cameraName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/Pic"
-        app:layout_constraintTop_toTopOf="@id/Pic" />
+        app:layout_constraintStart_toEndOf="@id/pic"
+        app:layout_constraintTop_toTopOf="@id/pic" />
 
 
     <TextView
@@ -38,7 +38,7 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@id/cameraFullName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/Pic"
+        app:layout_constraintStart_toEndOf="@id/pic"
         app:layout_constraintTop_toBottomOf="@id/date" />
 
     <TextView
@@ -48,9 +48,9 @@
         android:layout_margin="10sp"
         android:text="Camera-Full-Name"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@id/Pic"
+        app:layout_constraintBottom_toBottomOf="@id/pic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/Pic"
+        app:layout_constraintStart_toEndOf="@id/pic"
         app:layout_constraintTop_toBottomOf="@id/cameraName" />
 
 

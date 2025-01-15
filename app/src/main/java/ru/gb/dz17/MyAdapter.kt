@@ -34,7 +34,7 @@ class MyAdapter(
             date.text = "Date: ${item?.earth_date}"
             cameraName.text = "Camera name: ${item?.camera?.name}"
             cameraFullName.text = "Full camera name: ${item?.camera?.full_name}"
-            Pic.load(item?.img_src)
+            pic.load(item?.img_src)
         }
         holder.binding.root.setOnClickListener {
             item?.let { onClick(item) }

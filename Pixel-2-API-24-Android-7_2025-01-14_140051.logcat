@@ -1,0 +1,3098 @@
+{
+  "metadata": {
+    "device": {
+      "deviceId": "Pixel_2_API_24",
+      "name": "Pixel 2 API 24",
+      "serialNumber": "emulator-5554",
+      "isOnline": true,
+      "release": "7",
+      "sdk": 24,
+      "featureLevel": 24,
+      "model": "",
+      "type": "HANDHELD",
+      "isEmulator": true
+    },
+    "filter": "package:mine ",
+    "projectApplicationIds": [
+      "ru.gb.dz17",
+      "ru.gb.dz17.test"
+    ]
+  },
+  "logcatMessages": [
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12193,
+        "tid": 12193,
+        "applicationId": "pid-12193",
+        "processName": "pid-12193",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 77000000
+        }
+      },
+      "message": "\u003e\u003e\u003e\u003e\u003e\u003e START com.android.internal.os.RuntimeInit uid 2000 \u003c\u003c\u003c\u003c\u003c\u003c"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12193,
+        "tid": 12193,
+        "applicationId": "pid-12193",
+        "processName": "pid-12193",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 78000000
+        }
+      },
+      "message": "CheckJNI is OFF"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12193,
+        "tid": 12193,
+        "applicationId": "pid-12193",
+        "processName": "pid-12193",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 93000000
+        }
+      },
+      "message": "Unexpected CPU variant for X86 using defaults: x86"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12193,
+        "tid": 12193,
+        "applicationId": "pid-12193",
+        "processName": "pid-12193",
+        "tag": "ICU",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 95000000
+        }
+      },
+      "message": "No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12193,
+        "tid": 12193,
+        "applicationId": "pid-12193",
+        "processName": "pid-12193",
+        "tag": "memtrack",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 104000000
+        }
+      },
+      "message": "Couldn\u0027t load memtrack module (No such file or directory)"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12193,
+        "tid": 12193,
+        "applicationId": "pid-12193",
+        "processName": "pid-12193",
+        "tag": "android.os.Debug",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 104000000
+        }
+      },
+      "message": "failed to load memtrack module: -2"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12193,
+        "tid": 12193,
+        "applicationId": "pid-12193",
+        "processName": "pid-12193",
+        "tag": "Radio-JNI",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 105000000
+        }
+      },
+      "message": "register_android_hardware_Radio DONE"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12193,
+        "tid": 12193,
+        "applicationId": "pid-12193",
+        "processName": "pid-12193",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 109000000
+        }
+      },
+      "message": "Calling main entry com.android.commands.am.Am"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 1918,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 113000000
+        }
+      },
+      "message": "Force stopping ru.gb.dz17 appid\u003d10090 user\u003d0: from pid 12193"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 1918,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 113000000
+        }
+      },
+      "message": "Killing 12149:ru.gb.dz17/u0a90 (adj 0): stop ru.gb.dz17"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1598,
+        "tid": 1918,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 113000000
+        }
+      },
+      "message": "cleanUpApplicationRecord -- 12149"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1598,
+        "tid": 1918,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 116000000
+        }
+      },
+      "message": "Force removing ActivityRecord{6bc85c5 u0 ru.gb.dz17/.MainActivity t27}: app died, no saved state"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 1598,
+        "tid": 1918,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "JavaBinder",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 118000000
+        }
+      },
+      "message": "!!! FAILED BINDER TRANSACTION !!!  (parcel size \u003d 56)"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 1918,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "WindowManager",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 120000000
+        }
+      },
+      "message": "Destroying surface Surface(name\u003dru.gb.dz17/ru.gb.dz17.MainActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.removeLocked:1456 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2484 com.android.server.wm.WindowManagerService.removeWindowLocked:2442 com.android.server.wm.WindowManagerService.removeWindowLocked:2311 com.android.server.wm.AppWindowToken.removeAllWindows:530 com.android.server.wm.AppWindowToken.removeAppFromTaskLocked:326 "
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 1598,
+        "tid": 1619,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "JavaBinder",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 123000000
+        }
+      },
+      "message": "!!! FAILED BINDER TRANSACTION !!!  (parcel size \u003d 60)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12193,
+        "tid": 12193,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 127000000
+        }
+      },
+      "message": "Shutting down VM"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1781,
+        "tid": 1781,
+        "applicationId": "com.android.phone",
+        "processName": "com.android.phone",
+        "tag": "CarrierSvcBindHelper",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 130000000
+        }
+      },
+      "message": "No carrier app for: 0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 0,
+        "tid": 0,
+        "applicationId": "",
+        "processName": "",
+        "tag": "",
+        "timestamp": {
+          "seconds": 0,
+          "nanos": 0
+        }
+      },
+      "message": "---------------------------- PROCESS ENDED (12149) for package ru.gb.dz17 ----------------------------"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1598,
+        "tid": 2141,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 133000000
+        }
+      },
+      "message": "Permission Denial: Accessing service ComponentInfo{com.google.android.music/com.google.android.music.dial.DialMediaRouteProviderService} from pid\u003d2938, uid\u003d10073 that is not exported from uid 10059"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1598,
+        "tid": 2053,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "GraphicsStats",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 171000000
+        }
+      },
+      "message": "Buffer count: 3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 2030,
+        "tid": 2210,
+        "applicationId": "com.android.launcher3",
+        "processName": "com.android.launcher3",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 212000000
+        }
+      },
+      "message": "eglMakeCurrent: 0xa1e054e0: ver 2 0 (tinfo 0xa1e038c0)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 2030,
+        "tid": 2210,
+        "applicationId": "com.android.launcher3",
+        "processName": "com.android.launcher3",
+        "tag": "OpenGLRenderer",
+        "timestamp": {
+          "seconds": 1736852389,
+          "nanos": 718000000
+        }
+      },
+      "message": "Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer..."
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12203,
+        "tid": 12203,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 220000000
+        }
+      },
+      "message": "\u003e\u003e\u003e\u003e\u003e\u003e START com.android.internal.os.RuntimeInit uid 2000 \u003c\u003c\u003c\u003c\u003c\u003c"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12205,
+        "tid": 12205,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 220000000
+        }
+      },
+      "message": "\u003e\u003e\u003e\u003e\u003e\u003e START com.android.internal.os.RuntimeInit uid 2000 \u003c\u003c\u003c\u003c\u003c\u003c"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12203,
+        "tid": 12203,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 221000000
+        }
+      },
+      "message": "CheckJNI is OFF"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12205,
+        "tid": 12205,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 221000000
+        }
+      },
+      "message": "CheckJNI is OFF"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12205,
+        "tid": 12205,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 248000000
+        }
+      },
+      "message": "Unexpected CPU variant for X86 using defaults: x86"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12203,
+        "tid": 12203,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 248000000
+        }
+      },
+      "message": "Unexpected CPU variant for X86 using defaults: x86"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12205,
+        "tid": 12205,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "ICU",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 252000000
+        }
+      },
+      "message": "No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12203,
+        "tid": 12203,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "ICU",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 252000000
+        }
+      },
+      "message": "No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12205,
+        "tid": 12205,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "memtrack",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 270000000
+        }
+      },
+      "message": "Couldn\u0027t load memtrack module (No such file or directory)"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12205,
+        "tid": 12205,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "android.os.Debug",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 270000000
+        }
+      },
+      "message": "failed to load memtrack module: -2"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12205,
+        "tid": 12205,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "Radio-JNI",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 271000000
+        }
+      },
+      "message": "register_android_hardware_Radio DONE"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12203,
+        "tid": 12203,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "memtrack",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 271000000
+        }
+      },
+      "message": "Couldn\u0027t load memtrack module (No such file or directory)"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12203,
+        "tid": 12203,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "android.os.Debug",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 271000000
+        }
+      },
+      "message": "failed to load memtrack module: -2"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12203,
+        "tid": 12203,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "Radio-JNI",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 272000000
+        }
+      },
+      "message": "register_android_hardware_Radio DONE"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12205,
+        "tid": 12205,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 279000000
+        }
+      },
+      "message": "Calling main entry com.android.commands.am.Am"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 1918,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 281000000
+        }
+      },
+      "message": "Force stopping ru.gb.dz17 appid\u003d10090 user\u003d0: from pid 12205"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12203,
+        "tid": 12203,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 281000000
+        }
+      },
+      "message": "Calling main entry com.android.commands.wm.Wm"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12205,
+        "tid": 12205,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 286000000
+        }
+      },
+      "message": "Shutting down VM"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1781,
+        "tid": 1781,
+        "applicationId": "com.android.phone",
+        "processName": "com.android.phone",
+        "tag": "CarrierSvcBindHelper",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 290000000
+        }
+      },
+      "message": "No carrier app for: 0"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12203,
+        "tid": 12203,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 290000000
+        }
+      },
+      "message": "Shutting down VM"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1598,
+        "tid": 1855,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 293000000
+        }
+      },
+      "message": "Permission Denial: Accessing service ComponentInfo{com.google.android.music/com.google.android.music.dial.DialMediaRouteProviderService} from pid\u003d2938, uid\u003d10073 that is not exported from uid 10059"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12203,
+        "tid": 12220,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 294000000
+        }
+      },
+      "message": "Thread attaching while runtime is shutting down: Binder:12203_1"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12203,
+        "tid": 12220,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 294000000
+        }
+      },
+      "message": "NOTE: attach of thread \u0027Binder:12203_1\u0027 failed"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12205,
+        "tid": 12219,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 297000000
+        }
+      },
+      "message": "Thread attaching while runtime is shutting down: Binder:12205_1"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12205,
+        "tid": 12219,
+        "applicationId": "app_process",
+        "processName": "app_process",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 297000000
+        }
+      },
+      "message": "NOTE: attach of thread \u0027Binder:12205_1\u0027 failed"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12221,
+        "tid": 12221,
+        "applicationId": "pid-12221",
+        "processName": "pid-12221",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 530000000
+        }
+      },
+      "message": "\u003e\u003e\u003e\u003e\u003e\u003e START com.android.internal.os.RuntimeInit uid 2000 \u003c\u003c\u003c\u003c\u003c\u003c"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12221,
+        "tid": 12221,
+        "applicationId": "pid-12221",
+        "processName": "pid-12221",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 532000000
+        }
+      },
+      "message": "CheckJNI is OFF"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12221,
+        "tid": 12221,
+        "applicationId": "pid-12221",
+        "processName": "pid-12221",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 548000000
+        }
+      },
+      "message": "Unexpected CPU variant for X86 using defaults: x86"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12221,
+        "tid": 12221,
+        "applicationId": "pid-12221",
+        "processName": "pid-12221",
+        "tag": "ICU",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 551000000
+        }
+      },
+      "message": "No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12221,
+        "tid": 12221,
+        "applicationId": "pid-12221",
+        "processName": "pid-12221",
+        "tag": "memtrack",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 562000000
+        }
+      },
+      "message": "Couldn\u0027t load memtrack module (No such file or directory)"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12221,
+        "tid": 12221,
+        "applicationId": "pid-12221",
+        "processName": "pid-12221",
+        "tag": "android.os.Debug",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 562000000
+        }
+      },
+      "message": "failed to load memtrack module: -2"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12221,
+        "tid": 12221,
+        "applicationId": "pid-12221",
+        "processName": "pid-12221",
+        "tag": "Radio-JNI",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 562000000
+        }
+      },
+      "message": "register_android_hardware_Radio DONE"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12221,
+        "tid": 12221,
+        "applicationId": "pid-12221",
+        "processName": "pid-12221",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 568000000
+        }
+      },
+      "message": "Calling main entry com.android.commands.am.Am"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 2053,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 571000000
+        }
+      },
+      "message": "Force stopping ru.gb.dz17 appid\u003d10090 user\u003d0: from pid 12221"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12221,
+        "tid": 12221,
+        "applicationId": "pid-12221",
+        "processName": "pid-12221",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 574000000
+        }
+      },
+      "message": "Shutting down VM"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1598,
+        "tid": 2141,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 574000000
+        }
+      },
+      "message": "Permission Denial: Accessing service ComponentInfo{com.google.android.music/com.google.android.music.dial.DialMediaRouteProviderService} from pid\u003d2938, uid\u003d10073 that is not exported from uid 10059"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1781,
+        "tid": 1781,
+        "applicationId": "com.android.phone",
+        "processName": "com.android.phone",
+        "tag": "CarrierSvcBindHelper",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 576000000
+        }
+      },
+      "message": "No carrier app for: 0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12068,
+        "tid": 12068,
+        "applicationId": "installer",
+        "processName": "installer",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 611000000
+        }
+      },
+      "message": "Received request \u0027dump\u0027"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12247,
+        "tid": 12247,
+        "applicationId": "pid-12247",
+        "processName": "pid-12247",
+        "tag": "linker",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 738000000
+        }
+      },
+      "message": "/data/local/tmp/.studio/bin/installer: unsupported flags DT_FLAGS_1\u003d0x8000001"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12247,
+        "tid": 12247,
+        "applicationId": "pid-12247",
+        "processName": "pid-12247",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 742000000
+        }
+      },
+      "message": "Received request \u0027dump\u0027"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1363,
+        "tid": 1363,
+        "applicationId": "installd",
+        "processName": "installd",
+        "tag": "",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 803000000
+        }
+      },
+      "message": "free_cache(11374358) avail 5724250112"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12231,
+        "tid": 12231,
+        "applicationId": "pid-12231",
+        "processName": "pid-12231",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 887000000
+        }
+      },
+      "message": "\u003e\u003e\u003e\u003e\u003e\u003e START com.android.internal.os.RuntimeInit uid 2000 \u003c\u003c\u003c\u003c\u003c\u003c"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12231,
+        "tid": 12231,
+        "applicationId": "pid-12231",
+        "processName": "pid-12231",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 889000000
+        }
+      },
+      "message": "CheckJNI is OFF"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12231,
+        "tid": 12231,
+        "applicationId": "pid-12231",
+        "processName": "pid-12231",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 926000000
+        }
+      },
+      "message": "Unexpected CPU variant for X86 using defaults: x86"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12231,
+        "tid": 12231,
+        "applicationId": "pid-12231",
+        "processName": "pid-12231",
+        "tag": "ICU",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 930000000
+        }
+      },
+      "message": "No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12231,
+        "tid": 12231,
+        "applicationId": "pid-12231",
+        "processName": "pid-12231",
+        "tag": "memtrack",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 957000000
+        }
+      },
+      "message": "Couldn\u0027t load memtrack module (No such file or directory)"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12231,
+        "tid": 12231,
+        "applicationId": "pid-12231",
+        "processName": "pid-12231",
+        "tag": "android.os.Debug",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 957000000
+        }
+      },
+      "message": "failed to load memtrack module: -2"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12231,
+        "tid": 12231,
+        "applicationId": "pid-12231",
+        "processName": "pid-12231",
+        "tag": "Radio-JNI",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 958000000
+        }
+      },
+      "message": "register_android_hardware_Radio DONE"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12231,
+        "tid": 12231,
+        "applicationId": "pid-12231",
+        "processName": "pid-12231",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 967000000
+        }
+      },
+      "message": "Calling main entry com.android.commands.wm.Wm"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12231,
+        "tid": 12231,
+        "applicationId": "pid-12231",
+        "processName": "pid-12231",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852395,
+          "nanos": 969000000
+        }
+      },
+      "message": "Shutting down VM"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1598,
+        "tid": 1624,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "PackageManager",
+        "timestamp": {
+          "seconds": 1736852396,
+          "nanos": 228000000
+        }
+      },
+      "message": "Package ru.gb.dz17 desires unavailable shared library androidx.window.extensions; ignoring!"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1598,
+        "tid": 1624,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "PackageManager",
+        "timestamp": {
+          "seconds": 1736852396,
+          "nanos": 228000000
+        }
+      },
+      "message": "Package ru.gb.dz17 desires unavailable shared library androidx.window.sidecar; ignoring!"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 1624,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "PackageManager.DexOptimizer",
+        "timestamp": {
+          "seconds": 1736852396,
+          "nanos": 230000000
+        }
+      },
+      "message": "Running dexopt (dex2oat) on: /data/app/vmdl996966221.tmp/base.apk pkg\u003dru.gb.dz17 isa\u003dx86 vmSafeMode\u003dfalse debuggable\u003dtrue target-filter\u003dinterpret-only oatDir \u003d /data/app/vmdl996966221.tmp/oat sharedLibraries\u003dnull"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12273,
+        "tid": 12273,
+        "applicationId": "pid-12273",
+        "processName": "pid-12273",
+        "tag": "dex2oat",
+        "timestamp": {
+          "seconds": 1736852396,
+          "nanos": 238000000
+        }
+      },
+      "message": "Unexpected CPU variant for X86 using defaults: x86"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12273,
+        "tid": 12273,
+        "applicationId": "pid-12273",
+        "processName": "pid-12273",
+        "tag": "dex2oat",
+        "timestamp": {
+          "seconds": 1736852396,
+          "nanos": 238000000
+        }
+      },
+      "message": "Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2,-lock_add,-popcnt) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,-sse4.1,-sse4.2,-avx,-avx2,-lock_add,-popcnt) for the command line:"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12273,
+        "tid": 12273,
+        "applicationId": "pid-12273",
+        "processName": "pid-12273",
+        "tag": "dex2oat",
+        "timestamp": {
+          "seconds": 1736852396,
+          "nanos": 238000000
+        }
+      },
+      "message": "/system/bin/dex2oat --zip-fd\u003d6 --zip-location\u003dbase.apk --oat-fd\u003d7 --oat-location\u003d/data/app/vmdl996966221.tmp/oat/x86/base.odex --instruction-set\u003dx86 --instruction-set-variant\u003dx86 --instruction-set-features\u003ddefault --runtime-arg -Xms64m --runtime-arg -Xmx512m --compiler-filter\u003dinterpret-only --swap-fd\u003d9 --debuggable"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12273,
+        "tid": 12273,
+        "applicationId": "pid-12273",
+        "processName": "pid-12273",
+        "tag": "dex2oat",
+        "timestamp": {
+          "seconds": 1736852396,
+          "nanos": 239000000
+        }
+      },
+      "message": "/system/bin/dex2oat --compiler-filter\u003dinterpret-only --debuggable"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12273,
+        "tid": 12273,
+        "applicationId": "pid-12273",
+        "processName": "pid-12273",
+        "tag": "dex2oat",
+        "timestamp": {
+          "seconds": 1736852396,
+          "nanos": 759000000
+        }
+      },
+      "message": "Large app, accepted running with swap."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12273,
+        "tid": 12273,
+        "applicationId": "pid-12273",
+        "processName": "pid-12273",
+        "tag": "dex2oat",
+        "timestamp": {
+          "seconds": 1736852396,
+          "nanos": 770000000
+        }
+      },
+      "message": "Before Android 4.1, method int androidx.appcompat.widget.DropDownListView.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12273,
+        "tid": 12275,
+        "applicationId": "pid-12273",
+        "processName": "pid-12273",
+        "tag": "dex2oat",
+        "timestamp": {
+          "seconds": 1736852396,
+          "nanos": 771000000
+        }
+      },
+      "message": "Before Android 4.1, method int androidx.appcompat.widget.MenuPopupWindow$MenuDropDownListView.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12273,
+        "tid": 12275,
+        "applicationId": "pid-12273",
+        "processName": "pid-12273",
+        "tag": "dex2oat",
+        "timestamp": {
+          "seconds": 1736852396,
+          "nanos": 800000000
+        }
+      },
+      "message": "Before Android 4.1, method android.graphics.PorterDuffColorFilter androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12273,
+        "tid": 12273,
+        "applicationId": "pid-12273",
+        "processName": "pid-12273",
+        "tag": "dex2oat",
+        "timestamp": {
+          "seconds": 1736852396,
+          "nanos": 816000000
+        }
+      },
+      "message": "Before Android 4.1, method android.graphics.drawable.Drawable com.google.android.material.progressindicator.BaseProgressIndicator.getCurrentDrawable() would have incorrectly overridden the package-private method in android.widget.ProgressBar"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12273,
+        "tid": 12275,
+        "applicationId": "dex2oat",
+        "processName": "dex2oat",
+        "tag": "dex2oat",
+        "timestamp": {
+          "seconds": 1736852398,
+          "nanos": 820000000
+        }
+      },
+      "message": "Before Android 4.1, method double java.util.concurrent.ThreadLocalRandom.internalNextDouble(double, double) would have incorrectly overridden the package-private method in java.util.Random"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12273,
+        "tid": 12275,
+        "applicationId": "dex2oat",
+        "processName": "dex2oat",
+        "tag": "dex2oat",
+        "timestamp": {
+          "seconds": 1736852398,
+          "nanos": 820000000
+        }
+      },
+      "message": "Before Android 4.1, method int java.util.concurrent.ThreadLocalRandom.internalNextInt(int, int) would have incorrectly overridden the package-private method in java.util.Random"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12273,
+        "tid": 12275,
+        "applicationId": "dex2oat",
+        "processName": "dex2oat",
+        "tag": "dex2oat",
+        "timestamp": {
+          "seconds": 1736852398,
+          "nanos": 820000000
+        }
+      },
+      "message": "Before Android 4.1, method long java.util.concurrent.ThreadLocalRandom.internalNextLong(long, long) would have incorrectly overridden the package-private method in java.util.Random"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12273,
+        "tid": 12273,
+        "applicationId": "dex2oat",
+        "processName": "dex2oat",
+        "tag": "dex2oat",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 169000000
+        }
+      },
+      "message": "dex2oat took 6.931s (threads: 2) arena alloc\u003d3024B (3024B) java alloc\u003d14MB (15003592B) native alloc\u003d20MB (21750888B) free\u003d3MB (3283864B) swap\u003d16MB (16777216B)"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 1624,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "PackageManager",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 193000000
+        }
+      },
+      "message": "Package ru.gb.dz17 codePath changed from /data/app/ru.gb.dz17-2 to /data/app/ru.gb.dz17-1; Retaining data and using new"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1598,
+        "tid": 1624,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "PackageManager",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 193000000
+        }
+      },
+      "message": "Package ru.gb.dz17 desires unavailable shared library androidx.window.extensions; ignoring!"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1598,
+        "tid": 1624,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "PackageManager",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 193000000
+        }
+      },
+      "message": "Package ru.gb.dz17 desires unavailable shared library androidx.window.sidecar; ignoring!"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1598,
+        "tid": 1624,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "PackageManager",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 193000000
+        }
+      },
+      "message": "Code path for ru.gb.dz17 changing from /data/app/ru.gb.dz17-2 to /data/app/ru.gb.dz17-1"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1598,
+        "tid": 1624,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "PackageManager",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 193000000
+        }
+      },
+      "message": "Resource path for ru.gb.dz17 changing from /data/app/ru.gb.dz17-2 to /data/app/ru.gb.dz17-1"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 1624,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 236000000
+        }
+      },
+      "message": "Starting a blocking GC Explicit"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 1624,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 253000000
+        }
+      },
+      "message": "Explicit concurrent mark sweep GC freed 48790(2MB) AllocSpace objects, 17(436KB) LOS objects, 23% free, 12MB/16MB, paused 610us total 16.334ms"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 1363,
+        "tid": 1363,
+        "applicationId": "installd",
+        "processName": "installd",
+        "tag": "",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 257000000
+        }
+      },
+      "message": "Couldn\u0027t opendir /data/app/vmdl996966221.tmp: No such file or directory"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 2810,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "System.out",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 257000000
+        }
+      },
+      "message": "Success"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 1632,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "InputReader",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 291000000
+        }
+      },
+      "message": "Reconfiguring input devices.  changes\u003d0x00000010"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 1632,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "InputReader",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 306000000
+        }
+      },
+      "message": "Reconfiguring input devices.  changes\u003d0x00000010"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 1632,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "InputReader",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 309000000
+        }
+      },
+      "message": "Reconfiguring input devices.  changes\u003d0x00000010"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1781,
+        "tid": 1781,
+        "applicationId": "com.android.phone",
+        "processName": "com.android.phone",
+        "tag": "CarrierSvcBindHelper",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 314000000
+        }
+      },
+      "message": "No carrier app for: 0"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1781,
+        "tid": 1781,
+        "applicationId": "com.android.phone",
+        "processName": "com.android.phone",
+        "tag": "CarrierSvcBindHelper",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 315000000
+        }
+      },
+      "message": "No carrier app for: 0"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1781,
+        "tid": 1781,
+        "applicationId": "com.android.phone",
+        "processName": "com.android.phone",
+        "tag": "CarrierConfigLoader",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 315000000
+        }
+      },
+      "message": "mHandler: 9 phoneId: 0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 10745,
+        "tid": 10745,
+        "applicationId": "com.android.keychain",
+        "processName": "com.android.keychain",
+        "tag": "ContextImpl",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 345000000
+        }
+      },
+      "message": "Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1385 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:3011 "
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1598,
+        "tid": 1918,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 373000000
+        }
+      },
+      "message": "Permission Denial: Accessing service ComponentInfo{com.google.android.music/com.google.android.music.dial.DialMediaRouteProviderService} from pid\u003d2938, uid\u003d10073 that is not exported from uid 10059"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1598,
+        "tid": 2159,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 374000000
+        }
+      },
+      "message": "Permission Denial: Accessing service ComponentInfo{com.google.android.music/com.google.android.music.dial.DialMediaRouteProviderService} from pid\u003d2938, uid\u003d10073 that is not exported from uid 10059"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1598,
+        "tid": 1855,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 374000000
+        }
+      },
+      "message": "Permission Denial: Accessing service ComponentInfo{com.google.android.music/com.google.android.music.dial.DialMediaRouteProviderService} from pid\u003d2938, uid\u003d10073 that is not exported from uid 10059"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 1984,
+        "tid": 2345,
+        "applicationId": "com.google.android.gms.persistent",
+        "processName": "com.google.android.gms.persistent",
+        "tag": "NetworkScheduler",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 392000000
+        }
+      },
+      "message": "Unrecognised action provided: android.intent.action.PACKAGE_REMOVED"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 2247,
+        "tid": 12301,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Wear_Controller",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 405000000
+        }
+      },
+      "message": "Received broadcast action\u003dandroid.intent.action.PACKAGE_REMOVED and uri\u003dru.gb.dz17"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2452,
+        "tid": 2452,
+        "applicationId": "com.android.vending",
+        "processName": "com.android.vending",
+        "tag": "Finsky",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 456000000
+        }
+      },
+      "message": "[1] com.google.android.finsky.utils.PermissionPolicies$PermissionPolicyService.onStartCommand(117): post-install permissions check for ru.gb.dz17"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2452,
+        "tid": 2452,
+        "applicationId": "com.android.vending",
+        "processName": "com.android.vending",
+        "tag": "Finsky",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 458000000
+        }
+      },
+      "message": "[1] com.google.android.finsky.utils.bh.run(2302): Package state data is missing for ru.gb.dz17"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 2452,
+        "tid": 2452,
+        "applicationId": "com.android.vending",
+        "processName": "com.android.vending",
+        "tag": "Finsky",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 458000000
+        }
+      },
+      "message": "[1] com.google.android.finsky.FinskyApp.i(1468): No account configured on this device."
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12277,
+        "tid": 12277,
+        "applicationId": "pid-12277",
+        "processName": "pid-12277",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 487000000
+        }
+      },
+      "message": "\u003e\u003e\u003e\u003e\u003e\u003e START com.android.internal.os.RuntimeInit uid 2000 \u003c\u003c\u003c\u003c\u003c\u003c"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12277,
+        "tid": 12277,
+        "applicationId": "pid-12277",
+        "processName": "pid-12277",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 488000000
+        }
+      },
+      "message": "CheckJNI is OFF"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 10825,
+        "tid": 12309,
+        "applicationId": "com.google.android.googlequicksearchbox",
+        "processName": "com.google.android.googlequicksearchbox:search",
+        "tag": "UpdateIcingCorporaServi",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 489000000
+        }
+      },
+      "message": "Updating corpora: APPS\u003dru.gb.dz17, CONTACTS\u003dMAYBE"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12277,
+        "tid": 12277,
+        "applicationId": "pid-12277",
+        "processName": "pid-12277",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 517000000
+        }
+      },
+      "message": "Unexpected CPU variant for X86 using defaults: x86"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12277,
+        "tid": 12277,
+        "applicationId": "pid-12277",
+        "processName": "pid-12277",
+        "tag": "ICU",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 519000000
+        }
+      },
+      "message": "No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12277,
+        "tid": 12277,
+        "applicationId": "pid-12277",
+        "processName": "pid-12277",
+        "tag": "memtrack",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 527000000
+        }
+      },
+      "message": "Couldn\u0027t load memtrack module (No such file or directory)"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12277,
+        "tid": 12277,
+        "applicationId": "pid-12277",
+        "processName": "pid-12277",
+        "tag": "android.os.Debug",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 528000000
+        }
+      },
+      "message": "failed to load memtrack module: -2"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12277,
+        "tid": 12277,
+        "applicationId": "pid-12277",
+        "processName": "pid-12277",
+        "tag": "Radio-JNI",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 528000000
+        }
+      },
+      "message": "register_android_hardware_Radio DONE"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12277,
+        "tid": 12277,
+        "applicationId": "pid-12277",
+        "processName": "pid-12277",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 534000000
+        }
+      },
+      "message": "Calling main entry com.android.commands.am.Am"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 2810,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 535000000
+        }
+      },
+      "message": "Force stopping ru.gb.dz17 appid\u003d10090 user\u003d0: from pid 12277"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12277,
+        "tid": 12277,
+        "applicationId": "pid-12277",
+        "processName": "pid-12277",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 536000000
+        }
+      },
+      "message": "Shutting down VM"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1781,
+        "tid": 1781,
+        "applicationId": "com.android.phone",
+        "processName": "com.android.phone",
+        "tag": "CarrierSvcBindHelper",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 538000000
+        }
+      },
+      "message": "No carrier app for: 0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1598,
+        "tid": 1690,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 540000000
+        }
+      },
+      "message": "Permission Denial: Accessing service ComponentInfo{com.google.android.music/com.google.android.music.dial.DialMediaRouteProviderService} from pid\u003d2938, uid\u003d10073 that is not exported from uid 10059"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 2247,
+        "tid": 12291,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Wear_Controller",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 574000000
+        }
+      },
+      "message": "Received broadcast action\u003dandroid.intent.action.PACKAGE_ADDED and uri\u003dru.gb.dz17"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2247,
+        "tid": 12290,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "FontsPackageChangeOp",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 577000000
+        }
+      },
+      "message": "Package ru.gb.dz17 has no metadata"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2247,
+        "tid": 2480,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Icing",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 661000000
+        }
+      },
+      "message": "IndexChimeraService.getServiceInterface callingPackage\u003dcom.google.android.googlequicksearchbox componentName\u003dnull serviceId\u003d36"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2247,
+        "tid": 2404,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Icing",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 675000000
+        }
+      },
+      "message": "IndexChimeraService.getServiceInterface callingPackage\u003dcom.google.android.gms componentName\u003dAppsCorpus serviceId\u003d32"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2247,
+        "tid": 2480,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Icing",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 677000000
+        }
+      },
+      "message": "IndexChimeraService.getServiceInterface callingPackage\u003dcom.google.android.gms componentName\u003dAppsCorpus serviceId\u003d36"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2247,
+        "tid": 5352,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Icing",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 714000000
+        }
+      },
+      "message": "Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload true"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2247,
+        "tid": 5352,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Icing",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 718000000
+        }
+      },
+      "message": "Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2247,
+        "tid": 5352,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Icing",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 720000000
+        }
+      },
+      "message": "Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 10825,
+        "tid": 12309,
+        "applicationId": "com.google.android.googlequicksearchbox",
+        "processName": "com.google.android.googlequicksearchbox:search",
+        "tag": "UpdateIcingCorporaServi",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 722000000
+        }
+      },
+      "message": "UpdateCorporaTask done [took 233 ms] updated apps [took 233 ms] "
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2247,
+        "tid": 5352,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Icing",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 727000000
+        }
+      },
+      "message": "Indexing 7777432E8CE7877727211309F97DDA49E8ECF3C8 from com.google.android.googlequicksearchbox"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2247,
+        "tid": 2480,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Icing",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 731000000
+        }
+      },
+      "message": "IndexChimeraService.getServiceInterface callingPackage\u003dcom.google.android.gms componentName\u003dAppsCorpus serviceId\u003d32"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2247,
+        "tid": 2404,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Icing",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 732000000
+        }
+      },
+      "message": "IndexChimeraService.getServiceInterface callingPackage\u003dcom.google.android.gms componentName\u003dAppsCorpus serviceId\u003d36"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12321,
+        "tid": 12321,
+        "applicationId": "pid-12321",
+        "processName": "pid-12321",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 773000000
+        }
+      },
+      "message": "\u003e\u003e\u003e\u003e\u003e\u003e START com.android.internal.os.RuntimeInit uid 2000 \u003c\u003c\u003c\u003c\u003c\u003c"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12321,
+        "tid": 12321,
+        "applicationId": "pid-12321",
+        "processName": "pid-12321",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 775000000
+        }
+      },
+      "message": "CheckJNI is OFF"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12321,
+        "tid": 12321,
+        "applicationId": "pid-12321",
+        "processName": "pid-12321",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 798000000
+        }
+      },
+      "message": "Unexpected CPU variant for X86 using defaults: x86"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12321,
+        "tid": 12321,
+        "applicationId": "pid-12321",
+        "processName": "pid-12321",
+        "tag": "ICU",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 801000000
+        }
+      },
+      "message": "No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12321,
+        "tid": 12321,
+        "applicationId": "pid-12321",
+        "processName": "pid-12321",
+        "tag": "memtrack",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 812000000
+        }
+      },
+      "message": "Couldn\u0027t load memtrack module (No such file or directory)"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12321,
+        "tid": 12321,
+        "applicationId": "pid-12321",
+        "processName": "pid-12321",
+        "tag": "android.os.Debug",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 812000000
+        }
+      },
+      "message": "failed to load memtrack module: -2"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12321,
+        "tid": 12321,
+        "applicationId": "pid-12321",
+        "processName": "pid-12321",
+        "tag": "Radio-JNI",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 813000000
+        }
+      },
+      "message": "register_android_hardware_Radio DONE"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12321,
+        "tid": 12321,
+        "applicationId": "pid-12321",
+        "processName": "pid-12321",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 820000000
+        }
+      },
+      "message": "Calling main entry com.android.commands.am.Am"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 2135,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 824000000
+        }
+      },
+      "message": "START u0 {act\u003dandroid.intent.action.MAIN cat\u003d[android.intent.category.LAUNCHER] flg\u003d0x10000000 cmp\u003dru.gb.dz17/.MainActivity} from uid 2000 on display 0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2247,
+        "tid": 5352,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Icing",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 826000000
+        }
+      },
+      "message": "Indexing 844600D3972A58E31B5DA17D39E88A16042326FA from com.google.android.gms"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12321,
+        "tid": 12321,
+        "applicationId": "pid-12321",
+        "processName": "pid-12321",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 831000000
+        }
+      },
+      "message": "Shutting down VM"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12332,
+        "tid": 12332,
+        "applicationId": "pid-12332",
+        "processName": "pid-12332",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 837000000
+        }
+      },
+      "message": "Late-enabling -Xcheck:jni"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12332,
+        "tid": 12332,
+        "applicationId": "pid-12332",
+        "processName": "pid-12332",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 837000000
+        }
+      },
+      "message": "Unexpected CPU variant for X86 using defaults: x86"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 2159,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 841000000
+        }
+      },
+      "message": "Start proc 12332:ru.gb.dz17/u0a90 for activity ru.gb.dz17/.MainActivity"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 0,
+        "tid": 0,
+        "applicationId": "",
+        "processName": "",
+        "tag": "",
+        "timestamp": {
+          "seconds": 0,
+          "nanos": 0
+        }
+      },
+      "message": "---------------------------- PROCESS STARTED (12332) for package ru.gb.dz17 ----------------------------"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1316,
+        "tid": 3512,
+        "applicationId": "surfaceflinger",
+        "processName": "surfaceflinger",
+        "tag": "gralloc_ranchu",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 874000000
+        }
+      },
+      "message": "gralloc_alloc: Creating ashmem region of size 8294400"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12332,
+        "tid": 12332,
+        "applicationId": "ru.gb.dz17",
+        "processName": "ru.gb.dz17",
+        "tag": "System",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 932000000
+        }
+      },
+      "message": "ClassLoader referenced unknown path: /data/app/ru.gb.dz17-1/lib/x86"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2247,
+        "tid": 5352,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Icing",
+        "timestamp": {
+          "seconds": 1736852403,
+          "nanos": 933000000
+        }
+      },
+      "message": "Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 1000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19271): avc: denied { getattr } for path\u003d\"/proc/1\" dev\u003d\"proc\" ino\u003d4082 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:init:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 1000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19272): avc: denied { search } for name\u003d\"1\" dev\u003d\"proc\" ino\u003d4082 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:init:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19273): avc: denied { search } for name\u003d\"1\" dev\u003d\"proc\" ino\u003d4082 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:init:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19274): avc: denied { getattr } for path\u003d\"/proc/2\" dev\u003d\"proc\" ino\u003d7261 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:kernel:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19275): avc: denied { search } for name\u003d\"2\" dev\u003d\"proc\" ino\u003d7261 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:kernel:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19276): avc: denied { search } for name\u003d\"2\" dev\u003d\"proc\" ino\u003d7261 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:kernel:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19277): avc: denied { getattr } for path\u003d\"/proc/3\" dev\u003d\"proc\" ino\u003d7262 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:kernel:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19278): avc: denied { search } for name\u003d\"3\" dev\u003d\"proc\" ino\u003d7262 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:kernel:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19279): avc: denied { search } for name\u003d\"3\" dev\u003d\"proc\" ino\u003d7262 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:kernel:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19280): avc: denied { getattr } for path\u003d\"/proc/5\" dev\u003d\"proc\" ino\u003d7264 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:kernel:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19281): avc: denied { search } for name\u003d\"5\" dev\u003d\"proc\" ino\u003d7264 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:kernel:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19282): avc: denied { search } for name\u003d\"5\" dev\u003d\"proc\" ino\u003d7264 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:kernel:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 2030,
+        "tid": 2210,
+        "applicationId": "com.android.launcher3",
+        "processName": "com.android.launcher3",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 36000000
+        }
+      },
+      "message": "eglMakeCurrent: 0xa1e054e0: ver 2 0 (tinfo 0xa1e038c0)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12332,
+        "tid": 12332,
+        "applicationId": "ru.gb.dz17",
+        "processName": "ru.gb.dz17",
+        "tag": "AppCompatDelegate",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 108000000
+        }
+      },
+      "message": "Checking for metadata for AppLocalesMetadataHolderService : Service not found"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12332,
+        "tid": 12332,
+        "applicationId": "ru.gb.dz17",
+        "processName": "ru.gb.dz17",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 209000000
+        }
+      },
+      "message": "Before Android 4.1, method android.graphics.PorterDuffColorFilter androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2247,
+        "tid": 5352,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Icing",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 235000000
+        }
+      },
+      "message": "Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19283): avc: denied { getattr } for path\u003d\"/proc/7\" dev\u003d\"proc\" ino\u003d7266 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:kernel:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19284): avc: denied { search } for name\u003d\"7\" dev\u003d\"proc\" ino\u003d7266 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:kernel:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19285): avc: denied { search } for name\u003d\"7\" dev\u003d\"proc\" ino\u003d7266 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:kernel:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19286): avc: denied { getattr } for path\u003d\"/proc/8\" dev\u003d\"proc\" ino\u003d7267 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:kernel:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19287): avc: denied { search } for name\u003d\"8\" dev\u003d\"proc\" ino\u003d7267 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:kernel:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19288): avc: denied { search } for name\u003d\"8\" dev\u003d\"proc\" ino\u003d7267 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:kernel:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19289): avc: denied { getattr } for path\u003d\"/proc/9\" dev\u003d\"proc\" ino\u003d7268 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:kernel:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12350,
+        "tid": 12350,
+        "applicationId": "pid-12350",
+        "processName": "pid-12350",
+        "tag": "ps",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 11000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:19290): avc: denied { search } for name\u003d\"9\" dev\u003d\"proc\" ino\u003d7268 scontext\u003du:r:untrusted_app:s0:c512,c768 tcontext\u003du:r:kernel:s0 tclass\u003ddir permissive\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2247,
+        "tid": 5352,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Icing",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 343000000
+        }
+      },
+      "message": "Indexing done 7777432E8CE7877727211309F97DDA49E8ECF3C8"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2247,
+        "tid": 5352,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Icing",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 346000000
+        }
+      },
+      "message": "Indexing done 844600D3972A58E31B5DA17D39E88A16042326FA"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2247,
+        "tid": 5352,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Icing",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 347000000
+        }
+      },
+      "message": "Indexing 844600D3972A58E31B5DA17D39E88A16042326FA from com.google.android.gms"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2247,
+        "tid": 5352,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms",
+        "tag": "Icing",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 348000000
+        }
+      },
+      "message": "Indexing done 844600D3972A58E31B5DA17D39E88A16042326FA"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12332,
+        "tid": 12364,
+        "applicationId": "ru.gb.dz17",
+        "processName": "ru.gb.dz17",
+        "tag": "NetworkSecurityConfig",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 360000000
+        }
+      },
+      "message": "No Network Security Config specified, using platform default"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 1316,
+        "tid": 1378,
+        "applicationId": "surfaceflinger",
+        "processName": "surfaceflinger",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 367000000
+        }
+      },
+      "message": "ro.sf.lcd_density must be defined as a build property"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12332,
+        "tid": 12364,
+        "applicationId": "ru.gb.dz17",
+        "processName": "ru.gb.dz17",
+        "tag": "ViewModel",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 368000000
+        }
+      },
+      "message": "Unable to create converter for class ru.gb.dz17.data.MarsPhotos\n    for method PhotoApi.getPhotoFromApi"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12332,
+        "tid": 12332,
+        "applicationId": "ru.gb.dz17",
+        "processName": "ru.gb.dz17",
+        "tag": "",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 374000000
+        }
+      },
+      "message": "HostConnection::get() New Host Connection established 0x9f5e6ec0, tid 12332"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12332,
+        "tid": 12367,
+        "applicationId": "ru.gb.dz17",
+        "processName": "ru.gb.dz17",
+        "tag": "",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 403000000
+        }
+      },
+      "message": "HostConnection::get() New Host Connection established 0xa0811540, tid 12367"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12332,
+        "tid": 12367,
+        "applicationId": "ru.gb.dz17",
+        "processName": "ru.gb.dz17",
+        "tag": "OpenGLRenderer",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 426000000
+        }
+      },
+      "message": "Initialized EGL, version 1.4"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12332,
+        "tid": 12367,
+        "applicationId": "ru.gb.dz17",
+        "processName": "ru.gb.dz17",
+        "tag": "OpenGLRenderer",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 426000000
+        }
+      },
+      "message": "Swap behavior 1"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 12332,
+        "tid": 12367,
+        "applicationId": "ru.gb.dz17",
+        "processName": "ru.gb.dz17",
+        "tag": "OpenGLRenderer",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 427000000
+        }
+      },
+      "message": "Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without..."
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12332,
+        "tid": 12367,
+        "applicationId": "ru.gb.dz17",
+        "processName": "ru.gb.dz17",
+        "tag": "OpenGLRenderer",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 427000000
+        }
+      },
+      "message": "Swap behavior 0"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12332,
+        "tid": 12367,
+        "applicationId": "ru.gb.dz17",
+        "processName": "ru.gb.dz17",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 467000000
+        }
+      },
+      "message": "eglCreateContext: 0x9f5d7e40: maj 2 min 0 rcv 2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12332,
+        "tid": 12367,
+        "applicationId": "ru.gb.dz17",
+        "processName": "ru.gb.dz17",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 474000000
+        }
+      },
+      "message": "eglMakeCurrent: 0x9f5d7e40: ver 2 0 (tinfo 0x9f5758d0)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12332,
+        "tid": 12367,
+        "applicationId": "ru.gb.dz17",
+        "processName": "ru.gb.dz17",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 506000000
+        }
+      },
+      "message": "eglMakeCurrent: 0x9f5d7e40: ver 2 0 (tinfo 0x9f5758d0)"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 1619,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 651000000
+        }
+      },
+      "message": "Displayed ru.gb.dz17/.MainActivity: +822ms"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 2810,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "WindowManager",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 801000000
+        }
+      },
+      "message": "Destroying surface Surface(name\u003dcom.android.launcher3/com.android.launcher3.Launcher) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.AppWindowToken.destroySurfaces:363 com.android.server.wm.AppWindowToken.notifyAppStopped:389 com.android.server.wm.WindowManagerService.notifyAppStopped:4463 com.android.server.am.ActivityStack.activityStoppedLocked:1252 com.android.server.am.ActivityManagerService.activityStopped:6903 "
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1598,
+        "tid": 1619,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "WindowManager",
+        "timestamp": {
+          "seconds": 1736852404,
+          "nanos": 851000000
+        }
+      },
+      "message": "Destroying surface Surface(name\u003dStarting ru.gb.dz17) called by com.android.server.wm.WindowStateAnimator.destroySurface:2016 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:882 com.android.server.wm.WindowState.destroyOrSaveSurface:2100 com.android.server.wm.AppWindowToken.destroySurfaces:363 com.android.server.wm.WindowStateAnimator.finishExit:565 com.android.server.wm.WindowStateAnimator.stepAnimationLocked:491 com.android.server.wm.WindowAnimator.updateWindowsLocked:303 com.android.server.wm.WindowAnimator.animateLocked:704 "
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 12332,
+        "tid": 12371,
+        "applicationId": "ru.gb.dz17",
+        "processName": "ru.gb.dz17",
+        "tag": "ProfileInstaller",
+        "timestamp": {
+          "seconds": 1736852409,
+          "nanos": 781000000
+        }
+      },
+      "message": "Installing profile for ru.gb.dz17"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 2452,
+        "tid": 2516,
+        "applicationId": "com.android.vending",
+        "processName": "com.android.vending",
+        "tag": "Finsky",
+        "timestamp": {
+          "seconds": 1736852418,
+          "nanos": 457000000
+        }
+      },
+      "message": "[138] com.google.android.finsky.FinskyApp.i(1468): No account configured on this device."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2452,
+        "tid": 2516,
+        "applicationId": "com.android.vending",
+        "processName": "com.android.vending",
+        "tag": "Finsky",
+        "timestamp": {
+          "seconds": 1736852418,
+          "nanos": 458000000
+        }
+      },
+      "message": "[138] com.google.android.finsky.c.e.run(1151): Replicating app states via AMAS."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2452,
+        "tid": 2516,
+        "applicationId": "com.android.vending",
+        "processName": "com.android.vending",
+        "tag": "Finsky",
+        "timestamp": {
+          "seconds": 1736852418,
+          "nanos": 519000000
+        }
+      },
+      "message": "[138] com.google.android.finsky.c.c.a(311): Completed 0 account content syncs with 0 successful."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 2452,
+        "tid": 2452,
+        "applicationId": "com.android.vending",
+        "processName": "com.android.vending",
+        "tag": "Finsky",
+        "timestamp": {
+          "seconds": 1736852418,
+          "nanos": 519000000
+        }
+      },
+      "message": "[1] com.google.android.finsky.services.j.a(149): Installation state replication succeeded."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12332,
+        "tid": 12339,
+        "applicationId": "ru.gb.dz17",
+        "processName": "ru.gb.dz17",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1736852418,
+          "nanos": 856000000
+        }
+      },
+      "message": "Debugger is no longer active"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12332,
+        "tid": 12339,
+        "applicationId": "ru.gb.dz17",
+        "processName": "ru.gb.dz17",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1736852418,
+          "nanos": 856000000
+        }
+      },
+      "message": "Starting a blocking GC Instrumentation"
+    }
+  ]
+}

@@ -15,9 +15,7 @@ val client: OkHttpClient = OkHttpClient.Builder()
     .addInterceptor(logging)
     .build();
 
-private const val BASE_URL = "https://randomuser.me/api/"
-
-//private const val BASE_URL = "https://api.nasa.gov"
+private const val BASE_URL = "https://api.nasa.gov"
 private const val API_KEY = "DEMO_KEY"
 
 class RetrofitApi {
@@ -27,7 +25,7 @@ private val retrofit = Retrofit
     .Builder()
     .baseUrl(BASE_URL)
     .client(client)
-    .addConverterFactory(MoshiConverterFactory.create())
+    .addConverterFactory(GsonConverterFactory.create())
     .build()
 val photo: PhotoApi = retrofit.create(PhotoApi::class.java)
 
